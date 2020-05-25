@@ -1,0 +1,12 @@
+.search {
+    width: 30rem;
+    height: 2rem;
+}
+
+.search__input {
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem 0.5rem;
+    outline: none;
+    font-size: 1rem;
+}

@@ -1,0 +1,11 @@
+#app {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+#app .search {
+    margin-bottom: 2rem;
+}

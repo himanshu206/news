@@ -1,0 +1,9 @@
+.articleList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: 'space-between';
+}
+
+.articleList > div {
+    flex: 1 1 auto;
+}

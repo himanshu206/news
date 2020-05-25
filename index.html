@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='app/App.css' rel='stylesheet' type='text/css' />
+        <link href='app/search/Search.css' rel='stylesheet' type='text/css' />
+        <link href='app/article/Article.css' rel='stylesheet' type='text/css' />
+        <link href='app/article/ArticleList.css' rel='stylesheet' type='text/css' />
+
+        <script>
+            const onLoad = () => {
+                const app = new App();
+                app.setup({ root: document.getElementById('app') });
+                app.generateUI();
+            }
+
+            document.addEventListener("DOMContentLoaded", onLoad);
+        </script>
+    </head>
+    <body>
+        <div id="app"></div>
+
+        <script src="app/article/Article.js"></script>
+        <script src="app/article/ArticleList.js"></script>
+        <script src="app/article/ArticleManager.js"></script>
+        <script src="app/search/Search.js"></script>
+        <script src="app/App.js"></script>
+    </body>
+</html>
